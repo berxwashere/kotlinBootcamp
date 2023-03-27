@@ -3,8 +3,8 @@ package com.example.kotlindersler.nesne_tabanli_programlama.homework2
 class homework {
 
     fun celciusToFahrenheit(degree:Int) {
-        val celsius = ((degree-32)*5)/9
-        println("Celsius degree: $celsius")
+        val fahrenheit = (degree*(1.8))+32
+        println("Fahrenheit degree: $fahrenheit")
     }
 
     fun perimeterCalculator(firstSide:Int,secondSide:Int) {
